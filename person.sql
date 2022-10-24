@@ -14,3 +14,31 @@ ORDER BY height ASC
 
 SELECT * FROM person
 ORDER BY age DESC
+
+SELECT * FROM person
+WHERE age > 20
+  
+SELECT * FROM person
+WHERE age = 18
+
+SELECT * FROM person
+WHERE age < 20 AND age > 30
+
+SELECT * FROM person
+WHERE age != 20
+
+SELECT * FROM person
+WHERE favorite_color != 'red'
+
+SELECT * FROM person
+WHERE favorite_color != 'red' AND favorite_color != 'Blue'
+
+SELECT * FROM person
+WHERE favorite_color = 'Green' OR favorite_color = 'Orange'
+
+SELECT * FROM person
+WHERE favorite_color IN ('Green', 'Orange', 'Blue')
+
+SELECT * FROM person
+WHERE favorite_color IN ('Yellow', 'Purple')
+
